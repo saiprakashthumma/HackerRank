@@ -1,2 +1,6 @@
 i have created this files for practice jenkins 
 The leading open source automation server, Jenkins provides hundreds of plugins to support building, deploying and automating any project.
+
+webhooks:
+webhooks are automated HTTP callbacks that allow external systems—most commonly version control systems like GitHub to notify Jenkins instantly when a specific event occurs. 
+Instead of Jenkins periodically checking ("polling") for changes, the external system "pushes" a notification to Jenkins, triggering an immediate build or pipeline execution
